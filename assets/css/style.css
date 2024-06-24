@@ -94,7 +94,7 @@ button {
 
 html {
   font-family: "Inter", sans-serif;
-  font-size: var(--fs-base); /* base font-size (0.85rem = 13.6px) */
+  font-size: var(--fs-base); 
   line-height: 1.8;
 }
 
@@ -170,7 +170,7 @@ html {
 
 .container {
   margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
+  margin: auto; 
   padding: 0 15px;
 }
 
@@ -456,7 +456,7 @@ header .btn-group {
 .blog .separator {
   background: var(--foreground-tertiary);
   margin-inline: 3px;
-  margin: 0 3px; /* fallback for margin-inline */
+  margin: 0 3px; 
   width: 3px;
   height: 3px;
   border-radius: 3px;
@@ -468,7 +468,7 @@ header .btn-group {
 
 .load-more {
   margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
+  margin: auto; 
   background: var(--foreground-secondary);
   color: var(--background-secondary);
   padding: 0.6875rem 1.1875rem;
@@ -505,7 +505,7 @@ footer .wrapper {
   color: var(--foreground-secondary);
   max-width: 300px;
   margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
+  margin: auto; 
 }
 
 .footer-title {
@@ -685,9 +685,7 @@ footer .wrapper {
  */
 
 @media (min-width: 768px) {
-  /**
-   * REUSED STYLE 
-   */
+  
 
   .container {
     max-width: 800px;
@@ -856,9 +854,7 @@ footer .wrapper {
     z-index: 2;
   }
 
-  /**
-   * MAIN 
-   */
+  
 
   .main .container {
     display: grid;
@@ -866,9 +862,6 @@ footer .wrapper {
     gap: 60px;
   }
 
-  /**
-   * ASIDE 
-   */
 
   .aside {
     display: block;
@@ -884,10 +877,10 @@ footer .wrapper {
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #333; /* Choose your desired color */
+    color: #333; 
     text-decoration: none;
     animation: logoAnimation 2s infinite;
-    border: 2px solid #333; /* Border design */
+    border: 2px solid #333;
   }
   
   .logo:hover {
@@ -901,7 +894,7 @@ footer .wrapper {
     }
     50% {
       transform: scale(1.1);
-      border-color: #ffcc00; /* Highlighted border color */
+      border-color: #ffcc00; 
     }
     100% {
       transform: scale(1);
@@ -1059,7 +1052,7 @@ footer .wrapper {
 
   .newsletter .btn-primary {
     margin-inline: auto;
-    margin: auto; /* fallback for margin-inline */
+    margin: auto; 
   }
 
   /**
